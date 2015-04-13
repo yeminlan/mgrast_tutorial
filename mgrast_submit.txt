@@ -21,5 +21,6 @@ wget ftp://ftp-trace.ncbi.nlm.nih.gov/sra/sra-instant/reads/ByExp/sra/SRX/SRX144
 fastq-dump SRR492065.sra
 
 #submit to MG-RAST inbox
-curl -H "auth: 4SXSavaQBLEcR8MjFLvpc8jQ8" -X POST -F "upload=./SRR492065.fastq" "http://api.metagenomics.anl.gov/1/inbox/" > curl_output.txt
+curl -H "auth: 4SXSavaQBLEcR8MjFLvpc8jQ8" -X POST -F "upload=./SRR492065.fastq" "http://api.metagenomics.anl.gov/1/inbox/"
+
 
